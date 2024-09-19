@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(240, 182, 225);
+}
+.from_buscador{
+    padding: 20px;
+    text-align: center;
+}
+.buscador{
+    padding: 4px;
+    box-shadow: 0px 0px .2rem #000000;
+    border: none;
+}
+.buscador:focus-visible{
+    border: none;
+    outline: none;
+
+}
+.grid-gifs{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.gif{
+    border-radius: 10px;
+    width: 600px;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin: 10px;
+}
+.h2{
+    color: rgb(232, 7, 138);
+    font-family: sans-serif;
+}
