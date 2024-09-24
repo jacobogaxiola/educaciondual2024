@@ -2,7 +2,7 @@ import { LoadingButton } from "@mui/lab";
 import { Box, Container, TextField, Typography } from "@mui/material";
 import { useState } from "react";
 
-const API_WEATHER = `http://api.weatherapi.com/v1/current.json?key=${
+const API_WEATHER = `http://api.weatherapi.com/v1/current.json?key=35bafcc47ce740ad920232037242309${
   import.meta.env.VITE_API_KEY
 }&lang=es&q=`;
 
