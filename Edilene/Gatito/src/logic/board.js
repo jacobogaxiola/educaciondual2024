@@ -23,3 +23,5 @@ export const checkEndGame = (newBoard) => {
   // en el tablero
   return newBoard.every((square) => square !== null)
 }
+
+
