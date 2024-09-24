@@ -1,7 +1,15 @@
 import { LoadingButton } from "@mui/lab";
 import { Box, Container, TextField, Typography } from "@mui/material";
 import { useState } from "react";
+<<<<<<< HEAD:edgar/appclima/src/App.jsx
+
+const API_WEATHER = `http://api.weatherapi.com/v1/current.json?key=35bafcc47ce740ad920232037242309${
+  import.meta.env.VITE_API_KEY
+}&lang=es&q=`;
+
+=======
 const API_WEATHER = `http://api.weatherapi.com/v1/current.json?key=238b578b6bbf4b308ea223539242309&lang=es&q=`
+>>>>>>> f6c767c426cdf93e4d7f248a18345eb1dc650264:Jonna/appclima/src/App.jsx
 export default function App() {
   const [city, setCity] = useState("");
   const [error, setError] = useState({
