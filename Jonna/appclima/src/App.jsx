@@ -1,11 +1,15 @@
 import { LoadingButton } from "@mui/lab";
 import { Box, Container, TextField, Typography } from "@mui/material";
 import { useState } from "react";
+<<<<<<< HEAD:edgar/appclima/src/App.jsx
 
 const API_WEATHER = `http://api.weatherapi.com/v1/current.json?key=35bafcc47ce740ad920232037242309${
   import.meta.env.VITE_API_KEY
 }&lang=es&q=`;
 
+=======
+const API_WEATHER = `http://api.weatherapi.com/v1/current.json?key=238b578b6bbf4b308ea223539242309&lang=es&q=`
+>>>>>>> f6c767c426cdf93e4d7f248a18345eb1dc650264:Jonna/appclima/src/App.jsx
 export default function App() {
   const [city, setCity] = useState("");
   const [error, setError] = useState({
@@ -13,7 +17,6 @@ export default function App() {
     message: "",
   });
   const [loading, setLoading] = useState(false);
-
   const [weather, setWeather] = useState({
     city: "",
     country: "",
@@ -22,24 +25,18 @@ export default function App() {
     conditionText: "",
     icon: "",
   });
-
   const onSubmit = async (e) => {
     e.preventDefault();
     setError({ error: false, message: "" });
     setLoading(true);
-
     try {
       if (!city.trim()) throw { message: "El campo ciudad es obligatorio" };
-
       const res = await fetch(API_WEATHER + city);
       const data = await res.json();
-
       if (data.error) {
         throw { message: data.error.message };
       }
-
       console.log(data);
-
       setWeather({
         city: data.location.name,
         country: data.location.country,
@@ -55,10 +52,17 @@ export default function App() {
       setLoading(false);
     }
   };
-
   return (
-    <Container maxWidth="xs" sx={{ mt: 2 }}>
-      <Typography variant="h3" component="h1" align="center" gutterBottom>
+    <Container
+      maxWidth="xs"
+      sx={{ mt: 2 }}
+    >
+      <Typography
+        variant="h3"
+        component="h1"
+        align="center"
+        gutterBottom
+      >
         Weather App
       </Typography>
       <Box
@@ -78,7 +82,6 @@ export default function App() {
           error={error.error}
           helperText={error.message}
         />
-
         <LoadingButton
           type="submit"
           variant="contained"
@@ -88,7 +91,6 @@ export default function App() {
           Buscar
         </LoadingButton>
       </Box>
-
       {weather.city && (
         <Box
           sx={{
@@ -98,7 +100,10 @@ export default function App() {
             textAlign: "center",
           }}
         >
-          <Typography variant="h4" component="h2">
+          <Typography
+            variant="h4"
+            component="h2"
+          >
             {weather.city}, {weather.country}
           </Typography>
           <Box
@@ -107,18 +112,29 @@ export default function App() {
             src={weather.icon}
             sx={{ margin: "0 auto" }}
           />
-          <Typography variant="h5" component="h3">
+          <Typography
+            variant="h5"
+            component="h3"
+          >
             {weather.temperature} °C
           </Typography>
-          <Typography variant="h6" component="h4">
+          <Typography
+            variant="h6"
+            component="h4"
+          >
             {weather.conditionText}
           </Typography>
         </Box>
       )}
-
-      <Typography textAlign="center" sx={{ mt: 2, fontSize: "10px" }}>
+      <Typography
+        textAlign="center"
+        sx={{ mt: 2, fontSize: "10px" }}
+      >
         Powered by:{" "}
-        <a href="https://www.weatherapi.com/" title="Weather API">
+        <a
+          href="https://www.weatherapi.com/"
+          title="Weather API"
+        >
           WeatherAPI.com
         </a>
       </Typography>

@@ -1,5 +1,5 @@
 {
-  "name": "educaciondual2024",
+  "name": "clima",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,6 +16,7 @@
     "@mui/icons-material": "^6.1.1",
     "@mui/lab": "^6.0.0-beta.10",
     "@mui/material": "^6.1.1",
+    "notistack": "^3.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
