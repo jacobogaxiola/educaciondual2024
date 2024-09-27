@@ -1,6 +1,6 @@
 import { BUTTONS, EVENTS } from '../utils/consts.js'
 
-export function navigate (href) {
+export function Navigate (href) {
   window.history.pushState({}, '', href)
   const navigationEvent = new Event(EVENTS.PUSHSTATE)
   window.dispatchEvent(navigationEvent)
@@ -14,7 +14,7 @@ export function Link ({ target, to, ...props }) {
 
     if (isMainEvent && isManageableEvent && !isModifiedEvent) {
       event.preventDefault()
-      navigate(to) // navegación con SPA
+      Navigate(to) // navegación con SPA
       window.scrollTo(0, 0)
     }
   }

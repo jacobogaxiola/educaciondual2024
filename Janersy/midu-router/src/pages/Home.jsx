@@ -3,9 +3,9 @@ import { Link } from '../components/Link'
 export default function HomePage () {
   return (
     <>
-      <h1>Home</h1>
-      <p>Esta es una página de ejemplo para crear un React Router desde cero</p>
-      <Link to='/about'>Ir a Sobre nosotros</Link>
+      <h1>DONDEEEP  ESTA 🤷</h1>
+      <p>Y el perro ??🐶 </p>
+      <Link target={'_blank'} to='/about'>Magia/ Encuentrame picaleeeeeeeeeee✨ </Link>
     </>
   )
 }

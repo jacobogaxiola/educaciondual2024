@@ -6,6 +6,6 @@ export default function SearchPage ({ routeParams }) {
   }, [])
 
   return (
-    <h1>Has buscado {routeParams.query}</h1>
+    <h1>Has buscado al perro {routeParams.query}</h1>
   )
 }
