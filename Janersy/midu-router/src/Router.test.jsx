@@ -21,7 +21,7 @@ describe('Router', () => {
   })
 
   it('should render 404 if no routes match', () => {
-    render(<Router routes={[]} defaultComponent={() => <h1>404</h1>} />)
+    render(<Router routes={[]} defaultComponent={() => <h1>404 jajjjajajajaja</h1>} />)
     expect(screen.getByText('404')).toBeTruthy()
   })
 
@@ -31,7 +31,7 @@ describe('Router', () => {
     const routes = [
       {
         path: '/',
-        Component: () => <h1>Home</h1>
+        Component: () => <h1>Dondeeeee</h1>
       },
       {
         path: '/about',
@@ -53,7 +53,7 @@ describe('Router', () => {
             return (
               <>
                 <h1>Home</h1>
-                <Link to='/about'>Go to About</Link>
+                <Link target='_blank' to='/about'>Go to About</Link>
               </>
             )
           }}
