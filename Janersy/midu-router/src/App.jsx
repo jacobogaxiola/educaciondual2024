@@ -1,5 +1,7 @@
 import { lazy, Suspense } from 'react'
 
+
+
 import Page404 from './pages/404.jsx'
 import SearchPage from './pages/Search.jsx'
 

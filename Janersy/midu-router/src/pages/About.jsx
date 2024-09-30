@@ -2,14 +2,14 @@ import { Link } from '../components/Link'
 
 const i18n = {
   es: {
-    title: 'Sobre nosotros',
-    button: 'Ir a la home',
-    description: '¡Hola! Me llamo Miguel Ángel y estoy creando un clon de React Router.'
+    title: 'AQUI TOIIII 🐾 ',
+    button: 'DONDEEEE',
+    description: 'Aqui toi🐾 .'
   },
   en: {
-    title: 'About us',
+    title: 'About us  ',
     button: 'Go to home page',
-    description: 'Hi! My name is Miguel Ángel and I am creating a clone of React Router.'
+    description: '💐Hi! My name is Cha Eun Woo .'
   }
 }
 
@@ -24,10 +24,10 @@ export default function AboutPage ({ routeParams }) {
     <>
       <h1>{i18n.title}</h1>
       <div>
-        <img src='https://pbs.twimg.com/profile_images/1613612257015128065/oA0Is67J_400x400.jpg' alt='Foto de midudev' />
+        <img src='https://www.upsocl.com/wp-content/uploads/2013/03/tumblr_mw0u9wmKXk1qcsenco1_400-1.gif' alt='holiiii soy Cha Eun Woo 🌸 ' />
         <p>{i18n.description}</p>
       </div>
-      <Link to='/'>{i18n.button}</Link>
+      <Link target='_blank' to='/'>{i18n.button}</Link>
     </>
   )
 }
