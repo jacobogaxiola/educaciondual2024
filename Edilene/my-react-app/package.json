@@ -1,6 +1,5 @@
-2024-09-30 14:07:59.865 [info] [main] Nivel de registro: Info
 {
-  "name": "mi-app",
+  "name": "my-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
   }
 }
