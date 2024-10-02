@@ -5,7 +5,7 @@ export default function HomePage () {
       <>
         <h1>Home</h1>
         <p>blablablabla</p>
-        <Link to='/about' >Ir a 7 palabras</Link>
+        <Link to='/about' >Ir a ¿yelrocha?</Link>
       </>
     )
   }
