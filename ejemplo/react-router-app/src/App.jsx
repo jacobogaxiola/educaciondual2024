@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Nosotros  from './pages/Nosotros';
+import Manuel  from './pages/Manuel';
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/Nosotros" element={<Nosotros />} />
-          
+          <Route path="/Edilene" element={<Edilene />} />
+          <Route path="/Janersy" element={<Janersy />} />
         </Routes>
       </div>
     </Router>
