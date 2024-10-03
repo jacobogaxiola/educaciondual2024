@@ -1,14 +1,14 @@
 import React from 'react';
 
 
-function Janersy() {
+function Manuel() {
   return (
     <div>
-      <h2>Nombre: Janersy</h2>
-      <img className="imagenJ" src="../data/jan.jpg" alt="Janersy" />
+      <h2>Nombre: Manuel</h2>
+      <img className="imagenM" src="../data/Man.jpg" alt="Manuel" />
 
-      <p>Edad: 16</p>
-      <p>Género: Femenino</p>
+      <p>Edad: 17</p>
+      <p>Género: Masculino</p>
 
       <h3>Personaje Favorito:</h3>
       <img src="https://colombiacheck.s3.us-east-2.amazonaws.com/colcheck/s3fs-public/2020-06/4620-falso-jordi-medico.png?VersionId=unRL0nyaay0Roks3s7.LTH7B6w.rGeBg" alt="Personaje Favorito" />
@@ -22,7 +22,7 @@ function Janersy() {
       <iframe 
         width="560" 
         height="315" 
-        src="https://youtu.be/YQEt5MIJaIQ" 
+        src="https://www.youtube.com/embed/YQEt5MIJaIQ" 
         title="Sangolotiadito" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -32,4 +32,4 @@ function Janersy() {
   );
 }
 
-export default Janersy;
+export default Manuel;
