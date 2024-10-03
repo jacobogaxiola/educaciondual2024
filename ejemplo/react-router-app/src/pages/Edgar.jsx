@@ -16,7 +16,7 @@ function Edgar() {
       <p>Hobbie: Tocar Piano, dibujar</p>
       <p>Número de Teléfono: 697-113-1564</p>
       <p>Deporte Favorito: Basketball</p>
-      <p>Color Favorito: p</p>
+      <p>Color Favorito: Azul</p>
 
       <h3>Canción Favorita:</h3>
       <iframe
