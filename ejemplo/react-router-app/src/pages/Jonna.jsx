@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Jonna() {
+export default function Jonna() {
   return (
     <div>
       <h2>Nombre: Jonna</h2>
@@ -32,5 +32,3 @@ function Jonna() {
     </div>
   );
 }
-
-export default Jonna;
