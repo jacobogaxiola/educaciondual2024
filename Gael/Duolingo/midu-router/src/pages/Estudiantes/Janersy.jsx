@@ -10,7 +10,7 @@ export default function JanersyPage() {
       <h3>Personaje Favorito:</h3>
       <img src="https://0.soompi.io/wp-content/uploads/2021/02/18155521/cha-eun-woo-astro-1.jpg" alt="Personaje Favorito" />
 
-      <p>Carrera: Programacion</p>
+      <p>Carrera: Programación</p>
       <p>Hobbie: Bailar, Cantar y Leer </p>
       <p>Número de Teléfono: 697-114-6183</p>
       <p>Deporte Favorito: volleyball </p>

@@ -4,7 +4,7 @@ export default function KevinPage() {
   return (
     <div>
       <h2>Nombre: kevin</h2>
-      <img className="imagenK" src="../data/Kev.jpg" alt="Kevin" />
+      <img className="imagenK" src="../data/kev.jpg" alt="Kevin" />
 
       <p>Edad: 17</p>
       <p>Género: Masculino</p>

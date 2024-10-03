@@ -10,7 +10,7 @@ export default function ManuelPage() {
       <h3>Personaje Favorito:</h3>
       <img src="https://colombiacheck.s3.us-east-2.amazonaws.com/colcheck/s3fs-public/2020-06/4620-falso-jordi-medico.png?VersionId=unRL0nyaay0Roks3s7.LTH7B6w.rGeBg" alt="Personaje Favorito" />
 
-      <p>Carrera: Programacion</p>
+      <p>Carrera: Programación</p>
       <p>Hobbie:Cantar,tocar guitarra,ir al gym </p>
       <p>Número de Teléfono: 697-109-4669</p>
       <p>Deporte Favorito: volleyball </p>

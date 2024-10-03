@@ -10,7 +10,7 @@ export default function GaelPage() {
       <h3>Personaje Favorito:</h3>
       <img src="https://lumiere-a.akamaihd.net/v1/images/spider-man_tom_holland_178c4a70.jpeg?region=346,0,805,805" alt="Personaje Favorito" />
 
-      <p>Carrera: Programacion</p>
+      <p>Carrera: Programación</p>
       <p>Hobbie: Speedcubing</p>
       <p>Número de Teléfono: 673-148-7533</p>
       <p>Deporte Favorito: volleyball </p>

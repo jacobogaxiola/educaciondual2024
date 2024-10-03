@@ -10,12 +10,11 @@ export default function EdilenePage() {
       <h3>Personaje Favorito:</h3>
       <img src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/2098a-stitch-sentado.png?resize=400%2C400&ssl=1" alt="Personaje Favorito" />
 
-      <p>Carrera: Ingeniería de Software</p>
+      <p>Carrera: Programación</p>
       <p>Hobbie: Bailar</p>
       <p>Número de Teléfono: 697-102-1775</p>
       <p>Deporte Favorito: Atletismo</p>
       <p>Color Favorito: Azul, Negro y Blanco</p>
-      data/teamImages.js
       <h3>Canción Favorita:</h3>
       <iframe 
         width="560" 

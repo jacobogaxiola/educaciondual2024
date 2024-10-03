@@ -8,13 +8,22 @@ import KevinPage from './pages/Estudiantes/Kevin.jsx'
 import EdilenePage from './pages/Estudiantes/Edilene.jsx'
 import JanersyPage from './pages/Estudiantes/Janersy.jsx'
 import ManuelPage from './pages/Estudiantes/Manuel.jsx'
-
+import JonnaPage from './pages/Estudiantes/Jonna.jsx'
+import EdgarPage from './pages/Estudiantes/Edgar.jsx'
 import { Router } from './router.jsx'
 
 const appRoutes = [
   {
     path: '/',
     Component: HomePage
+  },
+  {
+    path: '/Edgar',
+    Component: EdgarPage
+  },
+  {
+    path: '/Jonna',
+    Component: JonnaPage
   },
   {
     path: '/Gael',

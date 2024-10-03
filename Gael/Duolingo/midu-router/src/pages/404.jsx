@@ -7,7 +7,7 @@ export default function Page404 () {
         <h1>This is NOT fine</h1>
         <img src="https://midu.dev/images/this-is-fine-404.gif" alt="Gif del perro de This is fine quemandose vivo" />
         </div>
-        <Link to='/'>Volver a Home</Link>
+        <Link to='/'>Volver a Inicio</Link>
         </>
     )
 }
