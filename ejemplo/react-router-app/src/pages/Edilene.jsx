@@ -18,7 +18,6 @@ function Edilene() {
       <p>Número de Teléfono: 697-102-1775</p>
       <p>Deporte Favorito: Atletismo</p>
       <p>Color Favorito: Azul, Negro y Blanco</p>
-      data/teamImages.js
       <h3>Canción Favorita:</h3>
       <iframe 
         width="560" 
