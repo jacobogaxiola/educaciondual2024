@@ -3,12 +3,14 @@ import Navbar from './components/Navbar';
 import Edilene  from './pages/Edilene';
 import Janersy  from './pages/Janersy';
 import Kevin  from './pages/Kevin';
+import Nosotros  from './pages/Nosotros';
+import Manuel  from './pages/Manuel';
 
 function App() {
   return (
     <Router>
       <div>
-        <h1>Integrantes del Equipo</h1>
+        <h1>Educacion Dual</h1>
         <Navbar />
 
         <Routes>
@@ -23,5 +25,3 @@ function App() {
 }
 
 export default App;
-
-

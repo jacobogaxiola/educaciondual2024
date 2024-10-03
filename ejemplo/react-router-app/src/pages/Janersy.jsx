@@ -18,7 +18,7 @@ function Janersy() {
       <p>Número de Teléfono: 697-114-6183</p>
       <p>Deporte Favorito: volleyball </p>
       <p>Color Favorito: Gris, Negro y Blanco</p>
-      data/teamImages.js
+     
       <h3>Canción Favorita:</h3>
       <iframe 
         width="560" 
