@@ -5,8 +5,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(0, 0, 0, 0.87);
-  background-color: #ffffff; /* Puedes mantener esto o eliminarlo */
+  color: rgba(8, 8, 8, 0.87);
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -40,7 +40,7 @@ body {
 }
 
 .board h1 {
-  color: #000000;
+  color: #070707;
   margin-bottom: 16px;
 }
 
@@ -49,7 +49,7 @@ body {
   margin: 25px;
   background: transparent;
   border: 2px solid #000000;
-  color: #000000;
+  color: #0a0909;
   width: 100px;
   border-radius: 5px;
   transition: 0.2s;
@@ -98,11 +98,11 @@ body {
   left: 0;
   display: grid;
   place-items: center;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .winner .text {
-  background: #111;
+  background: #71e37f;
   height: 300px;
   width: 320px;
   border: 2px solid #eee;
