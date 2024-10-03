@@ -4,7 +4,11 @@ import Inicio from './pages/Inicio';
 import Edilene  from './pages/Edilene';
 import Janersy  from './pages/Janersy';
 <<<<<<< HEAD
+<<<<<<< HEAD
+import Edgar from "./pages/Edgar";
+=======
 import Jonna  from './pages/Jonna';
+>>>>>>> d10e755bf9c0b2ca0dbcb623635066a074386690
 =======
 import Kevin  from './pages/Kevin';
 import Gael  from './pages/Gael';
@@ -24,10 +28,14 @@ function App() {
           <Route path="/Edilene" element={<Edilene />} />
           <Route path="/Janersy" element={<Janersy />} />
 <<<<<<< HEAD
+<<<<<<< HEAD
+          <Route path="/Edgar" element={<Edgar />} />
+=======
           <Route path="/Kevin" element={<Kevin />} />
 =======
 <<<<<<< HEAD
           <Route path="/Jonna" element={<Jonna />} />
+>>>>>>> d10e755bf9c0b2ca0dbcb623635066a074386690
 =======
 <<<<<<< HEAD
 =======

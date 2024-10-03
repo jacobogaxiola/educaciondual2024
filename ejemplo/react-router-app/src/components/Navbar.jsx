@@ -8,10 +8,14 @@ function Navbar() {
         <li><Link to="/Edilene">Edilene</Link></li>
         <li><Link to="/Janersy">Janersy</Link></li>
 <<<<<<< HEAD
+<<<<<<< HEAD
+        <li><Link to="/Edgar">Edgar</Link></li>
+=======
         <li><Link to="/Kevin">Kevin</Link></li>
 =======
 <<<<<<< HEAD
         <li><Link to="/Jonna">Jonna</Link></li>
+>>>>>>> d10e755bf9c0b2ca0dbcb623635066a074386690
 =======
 <<<<<<< HEAD
 =======
