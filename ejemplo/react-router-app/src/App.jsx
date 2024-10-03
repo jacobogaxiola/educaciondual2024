@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Edilene  from './pages/Edilene';
 import Janersy  from './pages/Janersy';
 import Kevin  from './pages/Kevin';
+import Gael  from './pages/Gael';
 import Nosotros  from './pages/Nosotros';
 import Manuel  from './pages/Manuel';
 
@@ -18,6 +19,8 @@ function App() {
           <Route path="/Janersy" element={<Janersy />} />
           <Route path="/kevin" element={<Kevin />} />
           
+          <Route path="/Gael" element={<Gael />} />
+          <Route path="/Manuel" element={<Manuel />} />
         </Routes>
       </div>
     </Router>

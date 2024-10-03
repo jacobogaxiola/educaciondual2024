@@ -5,7 +5,7 @@ function Manuel() {
   return (
     <div>
       <h2>Nombre: Manuel</h2>
-      <img className="imagenM" src="../data/Man.jpg" alt="Manuel" />
+      <img className="imagenM" src="../data/man.jpg" alt="Manuel" />
 
       <p>Edad: 17</p>
       <p>Género: Masculino</p>

@@ -8,6 +8,7 @@ function Navbar() {
         <li><Link to="/Edilene">Edilene</Link></li>
         <li><Link to="/Janersy">Janersy</Link></li>
         <li><Link to="/Kevin">Kevin</Link></li>
+        <li><Link to="/Gael">Gael</Link></li>
         <li><Link to="/Manuel">Manuel</Link></li>
       </ul>
     </nav>
