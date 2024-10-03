@@ -1,5 +1,15 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "canvas-confetti": "^1.9.3"
+=======
+  "devDependencies": {
+<<<<<<< HEAD
+=======
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+>>>>>>> fb004a6bd040b891dec31bd86adfd8eb78ec0c1b
+    "tailwindcss": "^3.4.13"
+>>>>>>> 2abbc30943f4ba23452baaefaf3920bff8df13ca
   }
 }
