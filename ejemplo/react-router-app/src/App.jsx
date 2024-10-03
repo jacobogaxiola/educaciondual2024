@@ -20,9 +20,12 @@ function App() {
           <Route path="/Janersy" element={<Janersy />} />
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
           <Route path="/kevin" element={<Kevin />} />
           
 >>>>>>> 45431e49fe0dae47e80da226b5bfd793e68a52a9
+>>>>>>> 0498125ace474e749aa28bcf879512f9737fdef2
           <Route path="/Gael" element={<Gael />} />
           <Route path="/Manuel" element={<Manuel />} />
         </Routes>
