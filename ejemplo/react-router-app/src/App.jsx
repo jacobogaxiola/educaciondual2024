@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar';
+import Inicio from './pages/Inicio';
 import Edilene  from './pages/Edilene';
 import Janersy  from './pages/Janersy';
 import Kevin  from './pages/Kevin';
@@ -15,14 +16,10 @@ function App() {
         <Navbar />
 
         <Routes>
-          <Route path="/Nosotros" element={<Edilene />} />
+          <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/Edilene" element={<Edilene />} />
           <Route path="/Janersy" element={<Janersy />} />
-<<<<<<< HEAD
-=======
-          <Route path="/kevin" element={<Kevin />} />
-          
->>>>>>> 45431e49fe0dae47e80da226b5bfd793e68a52a9
+          <Route path="/Kevin" element={<Kevin />} />
           <Route path="/Gael" element={<Gael />} />
           <Route path="/Manuel" element={<Manuel />} />
         </Routes>
