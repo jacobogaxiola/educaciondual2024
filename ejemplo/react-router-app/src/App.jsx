@@ -2,14 +2,11 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Edilene  from './pages/Edilene';
 import Janersy  from './pages/Janersy';
-<<<<<<< HEAD
 import Jonna  from './pages/Jonna';
-=======
 import Kevin  from './pages/Kevin';
 import Gael  from './pages/Gael';
 import Nosotros  from './pages/Nosotros';
 import Manuel  from './pages/Manuel';
->>>>>>> 98a50bdf0792c7033382ea4712b79ed57c8dc954
 
 function App() {
   return (
