@@ -11,6 +11,7 @@ import ManuelPage from './pages/Estudiantes/Manuel.jsx'
 import JonnaPage from './pages/Estudiantes/Jonna.jsx'
 import EdgarPage from './pages/Estudiantes/Edgar.jsx'
 import { Router } from './router.jsx'
+import Contacto from './Contacto.jsx'
 
 const appRoutes = [
   {
@@ -59,6 +60,7 @@ function App() {
   return (
     <main>
       <Router routes={appRoutes} defaultComponent={Page404} />
+      <Contacto />
     </main>
   )
 }
