@@ -10,6 +10,7 @@ import JanersyPage from './pages/Estudiantes/Janersy.jsx'
 import ManuelPage from './pages/Estudiantes/Manuel.jsx'
 import JonnaPage from './pages/Estudiantes/Jonna.jsx'
 import EdgarPage from './pages/Estudiantes/Edgar.jsx'
+import RafaelPage from './pages/Estudiantes/Rafael.jsx'
 import { Router } from './router.jsx'
 import Contacto from './Contacto.jsx'
 
@@ -17,6 +18,10 @@ const appRoutes = [
   {
     path: '/',
     Component: HomePage
+  },
+  {
+    path: '/Rafael',
+    Component: RafaelPage
   },
   {
     path: '/Edgar',
