@@ -3,7 +3,17 @@ import Navbar from './components/Navbar';
 import Inicio from './pages/Inicio';
 import Edilene  from './pages/Edilene';
 import Janersy  from './pages/Janersy';
+<<<<<<< HEAD
 import Jonna  from './pages/Jonna';
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+import Edgar from "./pages/Edgar";
+=======
+import Jonna  from './pages/Jonna';
+>>>>>>> d10e755bf9c0b2ca0dbcb623635066a074386690
+=======
+>>>>>>> 3ade7af5cec76c86ec653d7a98fc4c7555059b80
 import Kevin  from './pages/Kevin';
 import Gael  from './pages/Gael';
 import Nosotros  from './pages/Nosotros';
@@ -21,13 +31,28 @@ function App() {
           <Route path="/Edilene" element={<Edilene />} />
           <Route path="/Janersy" element={<Janersy />} />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+          <Route path="/Edgar" element={<Edgar />} />
+=======
+>>>>>>> 3ade7af5cec76c86ec653d7a98fc4c7555059b80
           <Route path="/Kevin" element={<Kevin />} />
 =======
 <<<<<<< HEAD
 >>>>>>> a68b3a51305724b9b8be1503d6b50bab51e69ceb
           <Route path="/Jonna" element={<Jonna />} />
+<<<<<<< HEAD
+=======
+>>>>>>> d10e755bf9c0b2ca0dbcb623635066a074386690
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 3ade7af5cec76c86ec653d7a98fc4c7555059b80
           <Route path="/kevin" element={<Kevin />} />
 <<<<<<< HEAD
 =======
