@@ -1,4 +1,12 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 export default function EdilenePage() {
+  const navigate = useNavigate();
+
+  const handleGoHome = () => {
+    navigate('/');
+  };
   return (
     <div>
       <h2>Nombre: Edilene</h2>
@@ -25,6 +33,10 @@ export default function EdilenePage() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
       </iframe>
+      <p>
+      {/* Botón para volver al inicio */}
+      <button onClick={handleGoHome}>Volver al inicio</button>
+      </p>
     </div>
   );
 }

@@ -1,4 +1,13 @@
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 export default function JonnaPage() {
+  const navigate = useNavigate();
+
+  const handleGoHome = () => {
+    navigate('/');
+  };
+
     return (
       <div>
         <h2>Nombre: Jonna</h2>
@@ -24,8 +33,11 @@ export default function JonnaPage() {
            title="Yo Fui El Chore"
            frameborder="0"
              allowfullscreen>
-  
              </iframe>
+             <p>
+      {/* Botón para volver al inicio */}
+      <button onClick={handleGoHome}>Volver al inicio</button>
+      </p>
       </div>
     );
   }
