@@ -18,6 +18,8 @@ export default function NosotrosPage () {
         <p></p>
         <Link to='/Jonna'>Jonnathan</Link>
         <p></p>
+        <Link to='/Rafael'>Rafael</Link>
+        <p></p>
         <Link to='/'>Ir a Inicio</Link>
       </>
     )
