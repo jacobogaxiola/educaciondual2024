@@ -1,13 +1,5 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-
+import { Link } from "../../Link";
 export default function GaelPage() {
-  const navigate = useNavigate();
-
-  const handleGoHome = () => {
-    navigate('/');
-  };
-
   return (
     <div>
       <h2>Nombre: Gael</h2>
@@ -22,22 +14,21 @@ export default function GaelPage() {
       <p>Carrera: Programación</p>
       <p>Hobbie: Speedcubing</p>
       <p>Número de Teléfono: 673-148-7533</p>
-      <p>Deporte Favorito: Volleyball</p>
+      <p>Deporte Favorito: volleyball </p>
       <p>Color Favorito: Rojo</p>
-
+     
       <h3>Canción Favorita:</h3>
       <iframe 
         width="560" 
         height="315" 
         src="https://www.youtube.com/embed/uHjW3zxbyf4" 
         title="Sangolotiadito" 
-        frameBorder="0" 
+        frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowFullScreen>
+        allowfullscreen>
       </iframe>
-    <p>
-      {/* Botón para volver al inicio */}
-      <button onClick={handleGoHome}>Volver al inicio</button>
+      <p>
+      <Link to='/'>Ir a Inicio</Link>
       </p>
     </div>
   );

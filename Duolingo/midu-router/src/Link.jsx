@@ -1,4 +1,5 @@
 import { EVENTS } from './consts.js'
+import HomePage from './pages/Home.jsx'
 
 export function navigate (href) {
     window.history.pushState({}, '', href)
@@ -8,7 +9,7 @@ export function navigate (href) {
 
 export function Link ({ target, to, ...props }) {
     const handleClick = (event) => {
-        const isMainEvent = event.button === BUTTONS.primary
+        const isMainEvent = event.button === BUTTONs.primary
         const isModifiedEvent = event.metaKey || event.altKey || event.ctrlKey || event.shiftKey
         const isManageableEvent = target === undefined || target === '_self'
 
@@ -21,3 +22,4 @@ export function Link ({ target, to, ...props }) {
 
     return <a onClick={handleClick} href={to} target={target} {...props} />
 }
+

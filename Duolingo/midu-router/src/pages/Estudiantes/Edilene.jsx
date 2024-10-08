@@ -1,12 +1,5 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-
+import { Link } from "../../Link";
 export default function EdilenePage() {
-  const navigate = useNavigate();
-
-  const handleGoHome = () => {
-    navigate('/');
-  };
   return (
     <div>
       <h2>Nombre: Edilene</h2>
@@ -34,8 +27,7 @@ export default function EdilenePage() {
         allowfullscreen>
       </iframe>
       <p>
-      {/* Botón para volver al inicio */}
-      <button onClick={handleGoHome}>Volver al inicio</button>
+      <Link to='/'>Ir a Inicio</Link>
       </p>
     </div>
   );

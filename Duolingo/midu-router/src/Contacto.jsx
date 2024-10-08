@@ -26,7 +26,7 @@ const Contacto = () => {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer HRKU-657a1ea9-6c7f-4934-a661-02904d4185c5'  // Añadir API Key aquí
+            'Authorization': 'Bearer HRKU-657a1ea9-6c7f-4934-a661-02904d4185c5' 
           },
           body: JSON.stringify(formData),
         }

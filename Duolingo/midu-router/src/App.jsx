@@ -10,64 +10,63 @@ import JanersyPage from './pages/Estudiantes/Janersy.jsx'
 import ManuelPage from './pages/Estudiantes/Manuel.jsx'
 import JonnaPage from './pages/Estudiantes/Jonna.jsx'
 import EdgarPage from './pages/Estudiantes/Edgar.jsx'
-import RafaelPage from './pages/Estudiantes/Rafael.jsx'
+import Rafael from './pages/Estudiantes/Rafael.jsx'
 import { Router } from './router.jsx'
-import Contacto from './Contacto.jsx'
+import RafaelPage from './pages/Estudiantes/Rafael.jsx'
 
 const appRoutes = [
   {
     path: '/',
-    element: <HomePage />,
+    Component: HomePage
+  },
+  {
+    path: '/Edgar',
+    Component: EdgarPage
+  },
+  {
+    path: '/Jonna',
+    Component: JonnaPage
+  },
+  {
+    path: '/Gael',
+    Component: GaelPage
+  },
+  {
+    path: '/Kevin',
+    Component: KevinPage
+  },
+  {
+    path: '/Edilene',
+    Component: EdilenePage
+  },
+  {
+    path: '/Janersy',
+    Component: JanersyPage
+  },
+  {
+    path: '/Manuel',
+    Component: ManuelPage
   },
   {
     path: '/Rafael',
     Component: RafaelPage
   },
   {
-    path: '/Edgar',
-    element: <EdgarPage />,
-  },
-  {
-    path: '/Jonna',
-    element: <JonnaPage />,
-  },
-  {
-    path: '/Gael',
-    element: <GaelPage />,
-  },
-  {
-    path: '/Kevin',
-    element: <KevinPage />,
-  },
-  {
-    path: '/Edilene',
-    element: <EdilenePage />,
-  },
-  {
-    path: '/Janersy',
-    element: <JanersyPage />,
-  },
-  {
-    path: '/Manuel',
-    element: <ManuelPage />,
-  },
-  {
     path: '/Nosotros',
-    element: <NosotrosPage />,
+    Component: NosotrosPage
   },
   {
     path: '/search/:query',
-    element: <SearchPage />,
-  },
-];
+    Component: SearchPage 
+  }
+]
 
 function App() {
   return (
     <main>
       <Router routes={appRoutes} defaultComponent={Page404} />
-      <Contacto />
     </main>
   )
 }
 
-export default App;
+export default App

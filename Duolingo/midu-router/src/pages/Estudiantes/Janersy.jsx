@@ -1,13 +1,5 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
-
+import { Link } from "../../Link";
 export default function JanersyPage() {
-  const navigate = useNavigate();
-
-  const handleGoHome = () => {
-    navigate('/');
-  };
-
   return (
     <div>
       <h2>Nombre: Janersy</h2>
@@ -36,10 +28,8 @@ export default function JanersyPage() {
         allowfullscreen>
       </iframe>
       <p>
-      {/* Botón para volver al inicio */}
-      <button onClick={handleGoHome}>Volver al inicio</button>
+      <Link to='/'>Ir a Inicio</Link>
       </p>
     </div>
   );
 }
-

@@ -1,4 +1,5 @@
-export default function Rafael() {
+import { Link } from "../../Link";
+export default function RafaelPage() {
   return (
     <div>
       <h2>Nombre: Rafael</h2>
@@ -25,7 +26,9 @@ export default function Rafael() {
       allowfullscreen>
 
       </iframe>
-
+       <p>
+       <Link to='/'>Ir a Inicio</Link>
+       </p>
     </div>
   );
 }
