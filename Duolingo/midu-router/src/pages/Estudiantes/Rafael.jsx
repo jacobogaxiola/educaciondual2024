@@ -1,11 +1,8 @@
-import React from 'react';
-
-
-function Rafael() {
+export default function Rafael() {
   return (
     <div>
       <h2>Nombre: Rafael</h2>
-      <img className="imagenK" src="../data/Raf.jpg" alt="Rafael" />
+      <img className="imagenK" src="../data/raf.jpg" alt="Rafael" />
 
       <p>Edad: 17</p>
       <p>Género: Masculino</p>
@@ -22,7 +19,7 @@ function Rafael() {
       <iframe 
       width="560" 
       height="315" 
-      src="https://youtu.be/Qskm9MTz2V4" 
+      src="https://www.youtube.com/embed/VZzSBv6tXMw" 
       title="Judas" 
       frameborder="0" 
       allowfullscreen>
@@ -32,5 +29,3 @@ function Rafael() {
     </div>
   );
 }
-
-export default Rafael;

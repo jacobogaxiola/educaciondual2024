@@ -1,21 +1,27 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomePage from './pages/Home.jsx';
-import NosotrosPage from './pages/Nosotros.jsx';
-import Page404 from './pages/404.jsx';
-import SearchPage from './pages/Search.jsx';
-import GaelPage from './pages/Estudiantes/Gael.jsx';
-import KevinPage from './pages/Estudiantes/Kevin.jsx';
-import EdilenePage from './pages/Estudiantes/Edilene.jsx';
-import JanersyPage from './pages/Estudiantes/Janersy.jsx';
-import ManuelPage from './pages/Estudiantes/Manuel.jsx';
-import JonnaPage from './pages/Estudiantes/Jonna.jsx';
-import EdgarPage from './pages/Estudiantes/Edgar.jsx';
+import './App.css'
+import HomePage from './pages/Home.jsx'
+import NosotrosPage from './pages/Nosotros.jsx'
+import Page404 from './pages/404.jsx'
+import SearchPage from './pages/Search.jsx'
+import GaelPage from './pages/Estudiantes/Gael.jsx'
+import KevinPage from './pages/Estudiantes/Kevin.jsx'
+import EdilenePage from './pages/Estudiantes/Edilene.jsx'
+import JanersyPage from './pages/Estudiantes/Janersy.jsx'
+import ManuelPage from './pages/Estudiantes/Manuel.jsx'
+import JonnaPage from './pages/Estudiantes/Jonna.jsx'
+import EdgarPage from './pages/Estudiantes/Edgar.jsx'
+import RafaelPage from './pages/Estudiantes/Rafael.jsx'
+import { Router } from './router.jsx'
+import Contacto from './Contacto.jsx'
 
 const appRoutes = [
   {
     path: '/',
     element: <HomePage />,
+  },
+  {
+    path: '/Rafael',
+    Component: RafaelPage
   },
   {
     path: '/Edgar',
@@ -57,17 +63,11 @@ const appRoutes = [
 
 function App() {
   return (
-    <Router>
-      <main>
-        <Routes>
-          {appRoutes.map(({ path, element }, index) => (
-            <Route key={index} path={path} element={element} />
-          ))}
-          <Route path="*" element={<Page404 />} />
-        </Routes>
-      </main>
-    </Router>
-  );
+    <main>
+      <Router routes={appRoutes} defaultComponent={Page404} />
+      <Contacto />
+    </main>
+  )
 }
 
 export default App;
